@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+.h21{
+text-align: center;
+margin-top: 1rem;
+color: #fff;
+text-transform:capitalize;
+
+}
+ul{
+    height:100vh;
+text-decoration: none;
+list-style: none;
+/* display: flex; */
+}
+li{
+    height: 100%;
+    width: 100%;
+    /* background-color:red; */
+    /* display: flex; */
+}
+.card{
+ height: 17rem;
+ width:25rem;
+ /* background-color:red; */
+ border:2px solid rgb(255, 255, 255);
+place-items: space-between;
+margin: 3rem;
+transition:700ms all;
+border-radius: 1rem;
+
+}
+html{
+    background-color:black;
+    text-transform: capitalize;
+}
+.card_name{
+    text-align: center;
+    font-size:1.7rem;
+    font-weight:lighter;
+    margin-top:1rem;
+    
+}
+.card_total {
+    font-size:2.7rem;
+    text-align: center;
+    margin-top: 4rem;
+    font-weight:bolder;
+    align-items: center;
+    color:#fff;
+text-shadow: 1rem  1rem 1rem  black;
+}
+.divider {
+    height: 20rem;
+    width: 100vw;
+    /* background-color:aqua; */
+    display:flex;
+}
+.divi{
+    height: 20rem;
+    width: 100vw;
+    /* background-color:rgb(0, 255, 34) ; */
+    display:flex;
+}
+.card1{
+    background-color:rgb(87, 132, 255);
+}
+.card2{
+    background-color:rgb(231, 78, 78);
+}
+.card3{
+    background-color:rgb(103, 231, 53);
+}
+.card4{
+    background-color:rgb(231, 78, 78)
+}
+.card5{
+    background-color:rgb(253, 255, 129)
+}
+.card6{
+    background-color:rgb(253, 255, 129);
+  
+}
+.card:hover{
+    transform:scale(1.1);
+}
